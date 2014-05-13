@@ -1,0 +1,73 @@
+/*.buttonWrapper{
+	margin: 0 auto;
+}*/
+.backButton {
+	text-align: center;	
+	width: 20%;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #D0D0D0;
+}
+.gButton {
+	text-align: center;
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 10%;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #D0D0D0;
+	float: left;
+}
+.rButton {
+	text-align: center;
+	width: 40%;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #D0D0D0;
+	float: left;
+}
+.bButtonL {
+	text-align: center;
+	width: 40%;
+	margin-left: 5%;
+	margin-right: 10%;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #D0D0D0;
+	float: left;
+}
+.bButton {
+	text-align: center;
+	width: 40%;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #D0D0D0;
+	float: left;
+}
+
+.backButton:hover{
+	background: #A0A0A0;
+}
+.bButtonL:hover{
+	background: -webkit-linear-gradient(top, #00FF00, #FF0000);
+	background: -moz-linear-gradient(top, #00FF00, #FF0000);
+}
+
+.bButton:hover{
+	background: -webkit-linear-gradient(top, #00FF00, #FF0000);
+	background: -moz-linear-gradient(top, #00FF00, #FF0000);
+}
+.gButton:hover{
+	background-color: #00FF00;
+}
+.rButton:hover{
+	background-color: #FF0000;
+}

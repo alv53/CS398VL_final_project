@@ -1,0 +1,113 @@
+body {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.partSplitter{
+	stroke-width: 1px;
+	stroke: black;
+	opacity: 0.5;
+}
+
+.origin {
+	fill: none;
+	stroke: black;
+	stroke-width: 1.5px;
+	
+}
+
+.line {
+  fill: none;
+  stroke: black;
+  stroke-width: 1.5px;
+}
+.area{
+	fill:green;
+	stroke-width: 0;
+}
+.posArea {
+	fill: green;
+	stroke-width: 0;
+}
+
+.negArea {
+	fill: red;
+	stroke-width: 0;
+}
+
+.part1 {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #D0D0D0;
+	position:fixed;
+	top: 90px;
+	left: 180px;
+}
+
+.part2 {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #D0D0D0;
+	position:fixed;
+	top: 90px;
+	left: 335px;
+}
+
+.part3 {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #D0D0D0;
+	position:fixed;
+	top: 90px;
+	left: 455px;
+}
+
+.part4 {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #D0D0D0;
+	position:fixed;
+	top: 90px;
+	left: 640px;
+}
+
+.part5 {
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #D0D0D0;
+	position:fixed;
+	top: 90px;
+	left: 860px;
+}
+
+.part1:hover{
+	background-color: #FFFFFF;
+}	
+.part2:hover{
+	background-color: #FFFFFF;
+}
+.part3:hover{
+	background-color: #FFFFFF;
+}
+.part4:hover{
+	background-color: #FFFFFF;
+}
+.part5:hover{
+	background-color: #FFFFFF;
+}
